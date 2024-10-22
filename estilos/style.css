@@ -1,64 +1,63 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+* {
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão como Arial; caso não disponível, usa Helvetica ou uma fonte sem serifa */
+    font-size: 16px; /* Define o tamanho da fonte para todos os elementos */
 }
 
 body {
-    background-color: rgb(204, 157, 248);
+    background-color: rgb(204, 157, 248); /* Define a cor de fundo da página em um tom lilás claro */
 }
 
 main {
-    background-color: white; 
-    width: 500px;
-    margin:auto;
-    padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+    background-color: white; /* Define o fundo do elemento <main> como branco */
+    width: 500px; /* Define a largura fixa de 500px para o <main> */
+    margin: auto; /* Centraliza o <main> horizontalmente */
+    padding: 10px; /* Adiciona espaçamento interno ao redor do conteúdo */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473); /* Adiciona uma sombra sutil ao contêiner, com leve desvio horizontal e vertical */
 }
 
 h1 {
-    font-size: 2em;
-    color: rgb(58, 0, 112);
+    font-size: 2em; /* Aumenta o tamanho do título principal (h1) para o dobro do tamanho base */
+    color: rgb(58, 0, 112); /* Define a cor do texto como roxo escuro */
 }
 
 h2 {
-    font-size: 1.5em;
-    color: rgb(58, 0, 112);
+    font-size: 1.5em; /* Define o tamanho do subtítulo (h2) como 1,5x o tamanho base */
+    color: rgb(58, 0, 112); /* Mantém a cor consistente com o título principal */
 }
 
 article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex; /* Aplica Flexbox ao <article> para facilitar o layout */
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos filhos horizontalmente */
 }
 
-article p{
-    text-align: justify; /* Justifica o texto */
+article p {
+    text-align: justify; /* Justifica o texto dos parágrafos para alinhamento nas duas margens */
 }
 
 article img {
-    max-width: 100%; /* Para manter a responsividade */
-    height: auto;
-    margin: 10px auto; /* Adiciona espaço ao redor da imagem */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção original da imagem */
+    margin: 10px auto; /* Adiciona margem vertical de 10px e centraliza a imagem horizontalmente */
 }
 
-
 img.centralizado {
-    display: block;
+    display: block; /* Exibe a imagem como um bloco para controlar o espaçamento */
     margin: 0 auto; /* Centraliza a imagem horizontalmente */
 }
 
 header img {
-    max-width: 100%;  /* Ajusta a imagem para caber na tela, se necessário */
-    height: auto;
+    max-width: 100%; /* Ajusta a imagem para caber no contêiner do cabeçalho */
+    height: auto; /* Mantém a proporção original da imagem */
 }
 
 a {
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(58, 0, 112);
+    text-decoration: none; /* Remove a linha sublinhada dos links */
+    font-weight: bold; /* Deixa o texto dos links em negrito */
+    color: rgb(58, 0, 112); /* Define a cor do link como roxo escuro */
 }
 
-a:hover{
-    text-decoration: underline;
-    color: rgb(26, 26, 255);
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado quando o link é passado com o mouse */
+    color: rgb(26, 26, 255); /* Altera a cor do link para azul ao passar o mouse */
 }
