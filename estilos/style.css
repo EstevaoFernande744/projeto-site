@@ -35,6 +35,7 @@ article img {
     max-width: 100%; /* Para manter a responsividade */
     height: auto;
     margin: 10px 0; /* Adiciona espaço ao redor da imagem */
+    text-align: justify; /* Justifica o texto */
 }
 
 
