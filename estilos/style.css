@@ -25,6 +25,20 @@ h2 {
     color: rgb(58, 0, 112);
 }
 
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+article img {
+    max-width: 100%; /* Para manter a responsividade */
+    height: auto;
+    margin: 10px 0; /* Adiciona espaço ao redor da imagem */
+}
+
+
 img.lado{
     text-align: center;
 }
