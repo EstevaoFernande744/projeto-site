@@ -29,6 +29,11 @@ img.lado{
     text-align: center;
 }
 
+header img {
+    max-width: 100%;  /* Ajusta a imagem para caber na tela, se necessário */
+    height: auto;
+}
+
 a {
     text-decoration: none;
     font-weight: bold;
