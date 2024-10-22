@@ -39,8 +39,9 @@ article img {
 }
 
 
-img.lado{
-    text-align: center;
+img.centralizado {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
 }
 
 header img {
